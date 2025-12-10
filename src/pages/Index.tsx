@@ -1,21 +1,21 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
-import { PartnersSection } from "@/components/PartnersSection";
 import { CourseSection } from "@/components/CourseSection";
-import { ServicesSection } from "@/components/ServicesSection";
-import { StoriesSection } from "@/components/StoriesSection";
+import { ConsultantsSection } from "@/components/ConsultantsSection";
+import { InsightsSection } from "@/components/InsightsSection";
+import { CapabilitiesSection } from "@/components/CapabilitiesSection";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       <Navbar />
       <main>
         <HeroSection />
-        <PartnersSection />
         <CourseSection />
-        <ServicesSection />
-        <StoriesSection />
+        <ConsultantsSection />
+        <InsightsSection />
+        <CapabilitiesSection />
       </main>
       <Footer />
     </div>

@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Space Grotesk', 'sans-serif'],
+        sans: ['Satoshi', 'sans-serif'],
+        display: ['Satoshi', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

@@ -23,7 +23,7 @@ const stories = [
 
 export const StoriesSection = () => {
   return (
-    <section id="stories" className="py-24 relative">
+    <section id="stories" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>

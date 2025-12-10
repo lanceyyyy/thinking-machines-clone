@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,600,700,800,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,7 +15,7 @@
     --popover: 225 30% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 16 85% 60%;
+    --primary: 6 86% 57%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 225 25% 18%;
@@ -32,13 +32,13 @@
 
     --border: 225 20% 20%;
     --input: 225 20% 20%;
-    --ring: 16 85% 60%;
+    --ring: 6 86% 57%;
 
     --radius: 0.5rem;
 
     /* Custom colors */
-    --coral: 16 85% 60%;
-    --coral-hover: 16 85% 55%;
+    --coral: 6 86% 57%;
+    --coral-hover: 6 86% 50%;
     --navy-deep: 225 40% 6%;
     --navy-light: 225 30% 15%;
     --purple-glow: 260 60% 50%;
@@ -46,17 +46,17 @@
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(225 40% 6%) 0%, hsl(240 35% 12%) 50%, hsl(225 30% 10%) 100%);
-    --gradient-coral: linear-gradient(135deg, hsl(16 85% 60%) 0%, hsl(25 90% 55%) 100%);
+    --gradient-coral: linear-gradient(135deg, hsl(6 86% 57%) 0%, hsl(6 86% 50%) 100%);
     --gradient-glow: radial-gradient(ellipse at 70% 30%, hsl(260 60% 30% / 0.4) 0%, transparent 50%);
 
     --sidebar-background: 225 30% 8%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 16 85% 60%;
+    --sidebar-primary: 6 86% 57%;
     --sidebar-primary-foreground: 0 0% 98%;
     --sidebar-accent: 225 25% 18%;
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 225 20% 20%;
-    --sidebar-ring: 16 85% 60%;
+    --sidebar-ring: 6 86% 57%;
   }
 }
 
@@ -76,11 +76,11 @@
 
 @layer utilities {
   .font-display {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Satoshi', sans-serif;
   }
 
   .font-sans {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Satoshi', sans-serif;
   }
 
   .text-gradient {

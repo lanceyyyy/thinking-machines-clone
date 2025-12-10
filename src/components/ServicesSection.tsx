@@ -35,7 +35,7 @@ const services = [
 
 export const ServicesSection = () => {
   return (
-    <section id="capabilities" className="py-24 relative">
+    <section id="capabilities" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-glow opacity-30" />
       
       <div className="relative container mx-auto px-6">
