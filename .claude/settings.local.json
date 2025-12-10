@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir \"c:\\Nact\\thinking-machines-clone\\public\\first-logo\")"
+      "Bash(dir \"c:\\Nact\\thinking-machines-clone\\public\\first-logo\")",
+      "Bash(dir \"c:\\Nact\\thinking-machines-clone\\public\\second-logo\")"
     ]
   }
 }

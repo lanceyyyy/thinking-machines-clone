@@ -78,7 +78,7 @@ export const CapabilitiesSection = () => {
               </div>
 
               {/* Title */}
-              <h3 className="font-display text-xl md:text-2xl font-medium text-white mb-4">
+              <h3 className="font-display text-xl  font-medium text-white mb-4">
                 {capability.title}
               </h3>
 

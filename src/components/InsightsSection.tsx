@@ -52,7 +52,7 @@ export const InsightsSection = () => {
             <a href="#" className="block group h-full">
               <div className="bg-white  overflow-hidden h-full flex flex-col">
                 {/* Image */}
-                <div className="flex-1 min-h-[300px] bg-gray-200 overflow-hidden">
+                <div className="flex-1 min-h-[70%] bg-gray-200 overflow-hidden">
                   <img
                     src={insights[0].image}
                     alt={insights[0].title}
